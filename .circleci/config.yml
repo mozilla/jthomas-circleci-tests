@@ -13,5 +13,5 @@ workflows:
   say-hello-workflow:
     jobs:
       - say-hello:
-        context: 
-          - sre-tf
+          context:
+            - sre-tf
